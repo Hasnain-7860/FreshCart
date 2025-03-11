@@ -16,9 +16,9 @@ const Navbar = () => {
                 <div className='flex gap-12'>
                     <img src="https://freshcart-next-js.vercel.app/images/logo/freshcart-logo.svg" alt="" />
                     <div className=' hidden lg:flex w-[600px]  items-center justify-between px-4 shadow-xl rounded-lg border-solid border-2 border-black' >
-                        <input className='w-[470px] outline-none' type="search" placeholder='Search for product' /><CiSearch  className='text-[20px]'/>
+                        <input className='w-[550px] outline-none ' type="search" placeholder='Search for product' /><CiSearch  className='text-[20px]'/>
                     </div>
-                    <div className='hidden lg:flex  justi items-center gap-4 shadow-lg p-3 border-solid border-2 border-black '>
+                    <div className='hidden lg:flex  justi items-center gap-4 shadow-lg p-3 border-solid border-2 border-black rounded-lg text-gray-500 font-semibold '>
                     <FiMapPin /> <h1>Location</h1>
                     </div>
                 </div>
