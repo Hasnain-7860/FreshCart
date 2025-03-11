@@ -5,13 +5,17 @@ import { CiHeart } from "react-icons/ci";
 import { RiContactsLine } from "react-icons/ri";
 import { IoCartOutline } from "react-icons/io5";
 import { RxHamburgerMenu } from "react-icons/rx";
+import { CiBoxList } from "react-icons/ci";
+import { MdKeyboardArrowDown } from "react-icons/md";
+
+
 
 
 
 const Navbar = () => {
   return (
     <div>
-        <div>
+        <div className=''>
             <div className='container flex justify-between py-5 items-center'>
                 <div className='flex gap-12'>
                     <img src="https://freshcart-next-js.vercel.app/images/logo/freshcart-logo.svg" alt="" />
@@ -22,7 +26,7 @@ const Navbar = () => {
                     <FiMapPin /> <h1>Location</h1>
                     </div>
                 </div>
-                <div className=' flex gap-4 text-[25px] lg:flex lg:gap-10 lg:text-[30px]  text-green-500  '>
+                <div className=' flex gap-4 text-[25px] lg:flex lg:gap-8 lg:text-[25px]  text-green-500  '>
                 <CiHeart />
                 <RiContactsLine />
                 <IoCartOutline />
@@ -30,6 +34,19 @@ const Navbar = () => {
 
 
                 </div>
+            </div>
+            <div>
+                <button><CiBoxList /> <p>All Departments </p> </button>
+                <button><h1>Home</h1><MdKeyboardArrowDown /></button>
+                <button><h1>Shop</h1><MdKeyboardArrowDown /></button>
+                <button><h1>Stores</h1><MdKeyboardArrowDown /></button>
+                <button><h1>Megamenu</h1><MdKeyboardArrowDown /></button>
+                <button><h1>Pages</h1><MdKeyboardArrowDown /></button>
+                <button><h1>Account</h1><MdKeyboardArrowDown /></button>
+                <button><h1>Home</h1><MdKeyboardArrowDown /></button>
+                <button><h1>Home</h1><MdKeyboardArrowDown /></button>
+                
+
             </div>
         </div>
     </div>
